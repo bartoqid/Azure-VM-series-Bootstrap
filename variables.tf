@@ -33,7 +33,7 @@ variable "subnet_prefixes_MGT" {
 
 variable "subnet_prefixes_Untrust" {
   description = "The address prefix to use for the subnet."
-  type        = "list"
+  type        = list
   default     = [
     {
       ip      = ["10.2.1.0/24"]
